@@ -1,0 +1,79 @@
+body{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+img{
+    border-radius:50%;
+    border:1px solid black;
+    width: 200px;
+    height: 200px;
+    margin:20px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    border:1px solid red;
+}
+.name{
+    font-size: 40px;
+    font-weight: bolder;
+    border: 1px solid black;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-left: 20vh;
+    border: 1px solid yellow;
+}
+.about-me{
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: left;
+    margin-left: 20px;
+}
+/*.profile{
+    font-size: 70px;
+    margin-left: 20vh;
+    margin-top: 10px;
+    width: 900px;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid blue;
+}*/
+.container2{
+    margin-left: 20vh;
+    border: 1px solid black;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.education{
+    width: 450px;
+    border: 1px solid red;
+}
+.work-experience{
+    width: 450px;
+    border: 1px solid red;
+}
+.container3{
+    margin-left: 20vh;
+    border: 1px solid black;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.skill{
+    width: 450px;
+    border: 1px solid red;
+}
+.language{
+    width: 450px;
+    border: 1px solid red;
+}
